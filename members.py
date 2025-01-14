@@ -4,4 +4,5 @@ class Members:
         self.memberId = memberId
         self.borrowedBooks = borrowedBooks
 
-    
+    def __str__(self):
+        return f"Member Name: {self.name}, Member ID: {self.memberId}"
